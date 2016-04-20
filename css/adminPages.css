@@ -1,0 +1,173 @@
+﻿.adminLoginMain
+{
+    background-color:#F8F8F8;
+    padding:10px;
+    border-radius:15px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+.adLoginTable
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.adLoginButton
+{
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.adTextbox
+{
+    padding:5px;
+    margin:5px;
+    font-size:medium;
+}
+
+#adminMainContent
+{
+    background-color:#F8F8F8;
+    padding:10px;
+    border-radius:15px;
+    margin:10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+.addJobMain
+{
+    background-color:#F8F8F8;
+    padding:10px;
+    border-radius:15px;
+    margin:10px;
+}
+
+.addJobTable
+{
+    padding:5px;
+}
+
+.addJobTextBox
+{
+    width:70%;
+}
+
+.addJobBtn
+{
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+.adminListingPanel
+{
+    background-color:#F8F8F8;
+    padding:10px;
+    border-radius:15px;
+    margin:10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+.adminListingContent
+{
+    background-color:white;
+    padding:10px;
+    border-radius:15px;
+    margin:10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+.jobEditArea
+{
+    background-color:white;
+    padding:10px;
+    border-radius:15px;
+    margin:10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+.confirmationButtons
+{
+    padding:10px;
+    margin:10px;
+}
+
+#editHomePanelsDiv
+{
+    padding:5px;
+    border-radius:15px;
+    margin:10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+#editHomePanelsDiv, table, tr
+{
+    padding:0px;
+}
+
+#editHomePanelsDiv, table, tr, td
+{
+    padding:0px;
+}
+
+.editPanelsButton
+{
+    margin-right:10px;
+    padding:5px;
+}
+
+#adminPanel
+{
+    float:left;
+    width:47%;
+}
+
+#adminQuickSearch
+{
+    padding:0px 10px 10px 10px;
+    float:right;
+    width:25%;
+    background-color:#D4DFFE;
+    border-radius:10px;
+    box-shadow: 0px 0px 3px #888888;
+}
+
+#adminQuickSearch, h2
+{
+    margin-bottom:10px;
+}
+
+.adminSearchButton
+{
+    padding:5px;
+    margin:15px 0px 0px 5px;
+    float:right;
+}
+
+.adminSearchTextbox
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.removeEditAdminControls
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.removeEditAdminControls li
+{
+    float:left;
+    padding-right:15px;
+}
+
+.addLocSecTextbox
+{
+    margin-top:10px;
+    margin-bottom:10px;
+}

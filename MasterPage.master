@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="css/main.css" rel="stylesheet" />
+    <link id="Link1" runat="server" rel="shortcut icon" href="~/images/favicon.ico" type="image/x-icon" />
+    <link id="Link2" runat="server" rel="icon" href="~/images/favicon.ico" type="image/ico" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div class="blueLine"></div>
+        <div id="mainWrapper">
+            <div id="headerWrapper">
+                <div id="header">
+                    <a href="Default.aspx"><asp:Image ID="Image1" ImageUrl="~/images/logo.png" runat="server"/></a>
+                </div>
+
+                    <asp:Panel ID="panLogin" runat="server" Visible="false">
+                        <div id="loginPanel">
+                            <asp:Label ID="lblUserName" runat="server" Text=""></asp:Label><br />
+                            <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click">LinkButton</asp:LinkButton><br />
+                            <a href="AdminPanel.aspx">Admin panel</a>
+                        </div>
+                    </asp:Panel>
+
+                <div id="navBar">
+                    <ul>
+                        <li id="startMenu"><a href="Default.aspx"><p>Home</p></a></li>
+                        <li><a href="About.aspx"><p>About Us</p></a></li>
+                        <li><a href="Contact.aspx"><p>Contact Us</p></a></li>
+                        <li id="endMenu"><a href="#"><p>Our Services <span style="font-size:x-small">&#8744;</span></p></a>
+                            <ul>
+                                <li class="startSub"><a href="Recruitment.aspx"><p>Recruitment Services</p></a></li>
+                                <li><a href="HR.aspx"><p>Human Resources</p></a></li>
+                                <li class="endSub"><a href="CVTips.aspx"><p>CV Tips</p></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="floatFixer"></div>
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            </asp:ContentPlaceHolder>
+            <div class="floatFixer"></div>
+            <div id="footer">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="About.aspx">About Us</a></li>
+                    <li><a href="Contact.aspx">Contact Us</a></li>
+                    <li><a href="Recruitment.aspx">Recruitment Services</a></li>
+                    <li><a href="HR.aspx">HR Services</a></li>
+                    <li><a href="CVTips.aspx">CV Writing tips</a></li>
+                </ul><br />
+                <div class="floatFixer"></div>
+
+                <div class="adminLogin">
+                    <a href="AdminLogin.aspx">Admin Login</a>
+                </div>
+
+                <div class="copyright">
+                    &copy; CastleGlen Recruitment 2014
+                </div>
+            </div>
+        </div>
+
+        <div id="createdBy">
+            Developed by Aidan Burke
+        </div>
+    </div>
+    </form>
+</body>
+</html>
